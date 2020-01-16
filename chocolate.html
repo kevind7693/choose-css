@@ -3,44 +3,86 @@
     <head>
         <meta charset="UTF-8">
         <title>Chocolate</title>
-        
+       <link href="https://fonts.googleapis.com/css?family=BioRhyme|Space+Mono&display=swap" rel="stylesheet">
+
+
         <style type="text/css">
-            
-            
-            
+        #first-div{
+            text-align: center;
+        }
+        body{
+            background-color:saddlebrown;
+        }   
+        h1{
+            font-family: BioRhyme;
+            font-size: 60px;
+        }
+        #wheat{
+            background-color:wheat;
+            padding:10px;
+            margin:25px;
+        }
+        #chocolate{
+            background-color:chocolate;
+            padding:10px;
+            margin:25px;
+        }
+        #black{
+            background-color:black;
+            color:white;
+            padding:10px;
+            margin:25px;
+        }
+        .black-border{
+        border-color: black;
+        border-width: 5px;
+        border-style: solid;
+        
+        }    
+        h2{
+            font-family: Space Mono;
+        }
+        .small{
+            width: 200px;
+        }
+        background{
+            background-color: saddlebrown;
+        }
+        .center{
+            text-align: center;
+        }
         </style>
     </head>
     <body>
+       <div id="first-div">
+           
+      
+        <h1 class="center">Chocolate</h1>
         
-        <!--font: BioRhyme-->
-        <!--60 pixels-->
-        <h1>Chocolate</h1>
-        
-        <!-- DO NOT change the size of this image-->
-        <!-- But it does need a border 5 pixels wide, solid, and black -->
-        <img src="img/chocolate.jpg">
-        
+       
+        <img class="black-border"src="img/chocolate.jpg">
+        </div>
         
         <!--font of all <h2>s: Space Mono-->
         <!--size of all images below: 200 pixels tall-->
-        <div>
+        <div id="wheat">
             <h2>White Chocolate</h2>
             <h3>Shhh... it's not really chocolate.</h3>
-            <img src="img/white.jpg">
+            <img class="small"src="img/white.jpg">
             <p>White chocolate is a chocolate confection made from cocoa butter, sugar and milk solids. White chocolate does not contain cocoa solids, which are found in other types of chocolate. It is characterized by a pale ivory color. The melting point of cocoa butter, the only cocoa bean component of white chocolate, is high enough to keep white chocolate solid at room temperature, as with milk chocolate and dark chocolate.</p>
             <h6>Source: <a href="https://en.wikipedia.org/wiki/White_chocolate">Wikipedia</a></h6>
         </div>
         
-        <div>
+        <div id="chocolate">
             <h2>Milk Chocolate</h2>
-            <img src="img/milk.jpg">
+            <img class="small" src="img/milk.jpg">
             <p>Milk chocolate is solid chocolate made with milk added in the form of powdered milk, liquid milk, or condensed milk. In 1875 a Swiss confectioner, Daniel Peter, developed the first solid milk-chocolate using condensed milk, which had been invented by Henri Nestlé, Peter's neighbour in Vevey.</p>
             <h6>Source: <a href="https://en.wikipedia.org/wiki/Types_of_chocolate#Milk_chocolate">Wikipedia</a></h6>
         </div>
         
-        <div>
+        <div id="black">
             <h2>Dark Chocolate</h2>
-            <img src="img/dark.jpg">
+            <img class="small" src="img/dark.jpg">
             <p>Dark black chocolate (also known as black chocolate, plain chocolate, or sour chocolate) is a form of chocolate containing cocoa solids, cocoa butter and sugar, without the milk found in milk chocolate. Government and industry standards of what products may be labeled "dark chocolate" vary by country and market.</p>
             <h6>Source: <a href="https://en.wikipedia.org/wiki/Dark_chocolate">Wikipedia</a></h6>
         </div>
